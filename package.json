@@ -1,0 +1,31 @@
+{
+  "name": "elv-client-proxy",
+  "version": "0.0.1",
+  "description": "Proxy server for elv-client-js",
+  "main": "src/Server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "start": "fastify start -l info src/Server.js",
+    "dev": "fastify start -w -l info -P src/Server.js",
+    "lint": "./node_modules/.bin/eslint \"src/**/*.js\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@eluvio/elv-client-js": "^2.0.2",
+    "fastify": "^2.0.0",
+    "fastify-autoload": "^1.0.0",
+    "fastify-cli": "^1.5.0",
+    "fastify-plugin": "^1.5.0",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-html": "^6.0.2",
+    "tap": "^12.5.3"
+  }
+}
