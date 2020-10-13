@@ -16,7 +16,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@eluvio/elv-client-js": "^3.1.11",
+    "@eluvio/elv-client-js": "^3.1.13",
     "fastify": "^2.0.0",
     "fastify-autoload": "^1.0.0",
     "fastify-cli": "^1.5.0",
